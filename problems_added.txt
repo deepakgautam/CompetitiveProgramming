@@ -12,4 +12,4 @@
 5. codeforces
 
  
-git commit "problem code - ANUBC , SQAMOD"
+git commit "problem code - ANUBC , SQAMOD
