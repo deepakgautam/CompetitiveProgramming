@@ -17,7 +17,6 @@ lli times[16][1 << 16];
 int arr[20];
 int n;
 int c = 0;
-
 lli solve(int current, int mask) //  curent means weare at current vertx  and now we have to visit vertex      not included in the mask  
 {
   if (dp[current][mask] != -1) {
@@ -49,7 +48,6 @@ lli solve(int current, int mask) //  curent means weare at current vertx  and no
   }
 }
 int main() {
-
   while (1) {
     memset(dp, -1, sizeof dp);
     memset(times, 0, sizeof times);
@@ -70,7 +68,5 @@ int main() {
       } else if (ans == max_ans) cc += times[i][1 << (i - 1)];
     }
     cout << ans + 2 * n << " " << cc << endl;
-
   }
-
 }
