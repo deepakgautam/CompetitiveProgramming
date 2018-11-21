@@ -8,11 +8,10 @@
  *		    git -https://github.com/deepakgautam							   	*		
  *********************************************************************************/
 // https://codeforces.com/problemset/problem/4/D
-#
-include < iostream >
-  using namespace std;#
+#include<iostream>
+using namespace std;#
 include < bits / stdc++.h >
-  int n;
+int n;
 int next[1000000];
 int dp[1000000];
 vector < pair < int, int > > v;
