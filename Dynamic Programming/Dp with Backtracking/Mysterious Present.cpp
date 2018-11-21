@@ -1,18 +1,17 @@
 /********************************************************************************
- *								Deepak gautam								   	*
- *			codeforces - gautam27 		codechef - algorithmist2			   	*
- *			Topcoder- gautam_27 		Spoj - nexus_d						   	*
- *			hackerearth- https://www.hackerearth.com/@deepak.gautam.127648 	   	*
- *			hackerrank - https://www.hackerrank.com/deepakgautam2701		   	*
- * 		    linkedin-https://www.linkedin.com/in/deepak-gautam-a924908a/       	*	
- *		    git -https://github.com/deepakgautam							   	*		
+ 								Deepak gautam								   	
+ 			codeforces - gautam27 		codechef - algorithmist2			   	
+ 			Topcoder- gautam_27 		Spoj - nexus_d						   	
+ 			hackerearth- https://www.hackerearth.com/@deepak.gautam.127648 	   	
+ 			hackerrank - https://www.hackerrank.com/deepakgautam2701		   	
+  		    linkedin-https://www.linkedin.com/in/deepak-gautam-a924908a/       		
+		    git -https://github.com/deepakgautam							   			
  *********************************************************************************/
 // https://codeforces.com/problemset/problem/4/D
-#
-include < iostream >
-  using namespace std;#
+#include<iostream>
+using namespace std;#
 include < bits / stdc++.h >
-  int n;
+int n;
 int next[1000000];
 int dp[1000000];
 vector < pair < int, int > > v;
